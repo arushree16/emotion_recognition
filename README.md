@@ -29,14 +29,15 @@ pip install opencv-python keras tensorflow numpy
 
 ## Files:
 - `test.py`: The main Python script to run the emotion detection.
-- `emotion_recognition.keras`: The pre-trained Keras model used to classify emotions.
+- `train.py`: The Python script that contains model details for training the model.
 - `haarcascade_frontalface_default.xml`: A Haar Cascade Classifier XML file used for face detection.
 
 ## How to Run:
 1. Clone the repository or download the project folder.
 2. Install the required libraries.
-3. Make sure the model file (`emotion_recognition.keras`) and the Haar Cascade XML (`haarcascade_frontalface_default.xml`) are in the correct locations.
-4. Run the `test.py` script:
+3. Run the `train.py` script.
+4. Make sure the model file (`emotion_recognition.keras`) and the Haar Cascade XML (`haarcascade_frontalface_default.xml`) are in the correct locations.
+5. Run the `test.py` script:
 
 ```bash
 python test.py
